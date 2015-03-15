@@ -21,8 +21,9 @@ public class ResultSetTableModel extends AbstractTableModel{
     
     private boolean connectedToDatabase = false;
     
-    public ResultSetTableModel(String url, String username, String password, String query) throws SQLException{
-       con = DriverManager.getConnection(url, username, password);
+    public ResultSetTableModel(String url, String username,
+            String password, String query) throws SQLException{
+            con = DriverManager.getConnection(url, username, password);
                 st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             connectedToDatabase = true;
             
@@ -34,7 +35,7 @@ public class ResultSetTableModel extends AbstractTableModel{
        if(!connectedToDatabase)
            throw new IllegalStateException("Not connected to Database");
        
-           try{
+          try{
                String className = metaData.getColumnClassName(column + 1);
                return Class.forName(className);
            } catch (Exception ex) {
