@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/klase/JdbcRowSetTest.java</file>
             <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/klase/ResultSetTableModel.java</file>
+            <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/addressbook_application/AddressBookDisplay.java</file>
+            <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/addressbook_application/PersonQueries.java</file>
             <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/klase/DisplayQueryResults.java</file>
             <file>file:/C:/Users/nemus/Documents/NetBeansProjects/JDBCApp/src/addressbook_application/Person.java</file>
         </group>
